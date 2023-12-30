@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/bg2.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Check my dribbble portfolio",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Dribbble serves as my primary digital canvas, showcasing the breadth and depth of my design expertise as both a graphic designer and a UI/UX specialist.",
+    url: "https://dribbble.com/khntrrs",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Connect with me",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "If you're interested in UI/UX design, let's connect on LinkedIn to exchange perspectives.",
+    url: "https://www.linkedin.com/in/khiana-torres-465b55230/",
   },
   {
-    title: "My Resume Site",
+    title: "Read my mind",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "I'm recently active on Medium! If you're interested in my thoughts on life learnings and design, I'd love for you to read and give me your feedback.",
+    url: "https://medium.com/@khntrrs",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "More soon",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "",
+    url: "",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Links</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
